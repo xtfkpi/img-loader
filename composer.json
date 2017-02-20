@@ -1,0 +1,25 @@
+{
+  "name": "bachatero/image-loader",
+  "description": "This is a package for image loading.",
+  "version": "0.0.1",
+  "keywords": [
+    "image",
+    "loader",
+    "client"
+  ],
+  "stability":"stable",
+  "homepage": "https://bitbucket.org/bachatero/img-loader/",
+  "license": "MIT",
+  "authors": [{"name":"bachatero"}],
+  "require": {
+    "php": ">=5.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "bachatero\\Imgloader\\": "src"
+    }
+  }
+}
