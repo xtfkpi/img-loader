@@ -21,7 +21,11 @@ class Loader
         if (!$f) {
             throw new remoteFileNotFoundException('image can not be found');
         }
-        file_put_contents("img/" . $filename, $f);
+        $folder="img/";
+        if (!file_exists($folder)) {
+            mkdir($folder, 0777, true);
+        }
+        file_put_contents($folder . $filename, $f);
     }
 }
 
