@@ -1,5 +1,5 @@
 {
-  "name": "bachatero/image-loader",
+  "name": "xtfkpi/image-loader",
   "description": "This is a package for image loading.",
   "version": "0.0.1",
   "keywords": [
@@ -8,9 +8,9 @@
     "client"
   ],
   "stability":"stable",
-  "homepage": "https://bitbucket.org/bachatero/img-loader/",
+  "homepage": "https://github.com/xtfkpi/img-loader/",
   "license": "MIT",
-  "authors": [{"name":"bachatero"}],
+  "authors": [{"name":"xtfkpi"}],
   "require": {
     "php": ">=5.3"
   },

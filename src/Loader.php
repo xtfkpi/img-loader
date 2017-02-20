@@ -1,6 +1,6 @@
 <?php
 
-namespace bachatero\Imgloader;
+namespace xtfkpi\Imgloader;
 
 class Loader
 {
