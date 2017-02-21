@@ -1,3 +1,6 @@
 .idea/
 girl.jpg
 vendor/
+img/
+composer.lock
+
