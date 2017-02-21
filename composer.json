@@ -3,7 +3,8 @@
     "description": "package for image download",
     "stability":"stable",
     "version":"1.0.1",
-    "type": "package",
+    "type": "library",
+    "minimum-stability":"dev",
     "require": {
         "php": ">=5.3"
     },
@@ -14,7 +15,7 @@
     "authors": [
         {
             "name": "xtfkpi",
-            "email": "xtfkpi@gmail.com"
+            "email": "imgloader@yopmail.com"
         }
     ],
     "autoload": {
