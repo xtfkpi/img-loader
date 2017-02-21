@@ -1,23 +1,23 @@
 {
-  "name": "xtfkpi/image-loader",
-  "description": "This is a package for image loading.",
-  "version": "0.0.1",
-  "keywords": [
-    "image",
-    "loader",
-    "client"
-  ],
-  "stability":"stable",
-  "homepage": "https://github.com/xtfkpi/img-loader/",
-  "license": "MIT",
-  "authors": [{"name":"xtfkpi"}],
-  "require": {
-    "php": ">=5.3"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "4.*"
-  },
-  "autoload": {
+    "name": "xtfkpi/img-loader",
+    "description": "package for image download",
+    "stability":"stable",
+    "version":"1.0.1",
+    "type": "package",
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xtfkpi",
+            "email": "xtfkpi@gmail.com"
+        }
+    ],
+    "autoload": {
     "psr-4": {
       "xtfkpi\\Imgloader\\": "src"
     }
