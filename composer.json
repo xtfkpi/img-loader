@@ -2,7 +2,6 @@
     "name": "xtfkpi/img-loader",
     "description": "package for image download",
     "stability":"stable",
-    "version":"1.0.1",
     "type": "library",
     "minimum-stability":"dev",
     "require": {
